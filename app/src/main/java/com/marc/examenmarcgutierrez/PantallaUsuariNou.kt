@@ -5,17 +5,16 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class MainActivity : AppCompatActivity() {
+class PantallaUsuariNou : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_pantalla_usuari_nou)
 
-        val buttonEnter = findViewById<Button>(R.id.buttonEntrar)
+        val buttonAfegir = findViewById<Button>(R.id.buttonAfegirAlumne)
 
-        buttonEnter.setOnClickListener {
-            val intent = Intent(this, PantallaUsuariNou::class.java)
+        buttonAfegir.setOnClickListener{
+            val intent = Intent(this, PantallaConfirmacio::class.java)
             startActivity(intent)
         }
-
     }
 }
