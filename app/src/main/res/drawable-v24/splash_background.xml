@@ -6,8 +6,8 @@
     <item
         android:top="175dp"
         android:bottom="175dp"
-        android:left="175dp"
-        android:right="175dp">
+        android:left="75dp"
+        android:right="75dp">
         <bitmap android:src="@drawable/logo" />
     </item>
 </layer-list>
