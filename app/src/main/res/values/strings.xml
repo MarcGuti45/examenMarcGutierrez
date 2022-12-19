@@ -2,4 +2,18 @@
     <string name="app_name">examenMarcGutierrez</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nom_alumne">Nom Alumne</string>
+    <string name="informaci_alumne">INFORMACIÓ ALUMNE</string>
+    <string name="edat_alumne">Edat Alumne</string>
+    <string name="todo">TODO</string>
+    <string name="entrar">Entrar</string>
+    <string name="fica_el_nom_d_admin_marc">Fica el nom d\'admin (Marc)</string>
+    <string name="llistat_alumnes">LListat Alumnes</string>
+    <string name="infome_acad_mic">Infome Acadèmic</string>
+    <string name="adre_a_postal">Adreça Postal</string>
+    <string name="plus">+</string>
+    <string name="llistat">Llistat</string>
+    <string name="edat">Edat</string>
+    <string name="nom">Nom</string>
+    <string name="todo2">TODO</string>
 </resources>

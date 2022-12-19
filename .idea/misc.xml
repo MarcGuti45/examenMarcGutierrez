@@ -3,11 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Marc/OneDrive/Escritorio/TODO/2n DAM/examenMarcGutierrez/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Marc/OneDrive/Escritorio/TODO/2n DAM/examenMarcGutierrez/app/src/main/res/drawable-v24/splash_background.xml" value="0.2265" />
+        <entry key="..\:/Users/Marc/OneDrive/Escritorio/TODO/2n DAM/examenMarcGutierrez/app/src/main/res/layout/activity_alumne_detall.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Marc/OneDrive/Escritorio/TODO/2n DAM/examenMarcGutierrez/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/Marc/OneDrive/Escritorio/TODO/2n DAM/examenMarcGutierrez/app/src/main/res/layout/activity_pantalla_confirmacio.xml" value="0.265625" />
         <entry key="..\:/Users/Marc/OneDrive/Escritorio/TODO/2n DAM/examenMarcGutierrez/app/src/main/res/layout/activity_pantalla_llistat.xml" value="0.265625" />
         <entry key="..\:/Users/Marc/OneDrive/Escritorio/TODO/2n DAM/examenMarcGutierrez/app/src/main/res/layout/activity_pantalla_usuari_nou.xml" value="0.265625" />
+        <entry key="..\:/Users/Marc/OneDrive/Escritorio/TODO/2n DAM/examenMarcGutierrez/app/src/main/res/layout/fragment_blank.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Marc/OneDrive/Escritorio/TODO/2n DAM/examenMarcGutierrez/app/src/main/res/layout/fragment_initial.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Marc/OneDrive/Escritorio/TODO/2n DAM/examenMarcGutierrez/app/src/main/res/layout/item_alumne.xml" value="0.253125" />
       </map>
     </option>
   </component>

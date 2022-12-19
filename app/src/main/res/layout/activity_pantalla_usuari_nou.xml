@@ -12,21 +12,25 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Nom"
+        android:minHeight="48dp"
+        android:text="@string/nom"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.079"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.056" />
+        app:layout_constraintVertical_bias="0.056"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/etEdat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:autofillHints=""
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Edat"
+        android:minHeight="48dp"
+        android:text="@string/edat"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.079"
@@ -44,7 +48,8 @@
         app:layout_constraintHorizontal_bias="0.94"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.01" />
+        app:layout_constraintVertical_bias="0.01"
+        android:contentDescription="@string/todo2" />
 
     <EditText
         android:id="@+id/etCodiPostal"
@@ -52,9 +57,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
+        android:autofillHints=""
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Adreça Postal"
+        android:minHeight="48dp"
+        android:text="@string/adre_a_postal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -71,20 +78,21 @@
         android:layout_marginBottom="148dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Infome Acadèmic"
+        android:text="@string/infome_acad_mic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etCodiPostal"
-        app:layout_constraintVertical_bias="0.21" />
+        app:layout_constraintVertical_bias="0.21"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/buttonAfegirAlumne"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="92dp"
-        android:text="+"
+        android:text="@string/plus"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -97,7 +105,7 @@
         android:id="@+id/buttonLlistat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Llistat"
+        android:text="@string/llistat"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
